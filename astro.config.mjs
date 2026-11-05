@@ -1,4 +1,5 @@
 export default {
-  site: 'https://example.com',
+  site: 'https://evadesad.github.io',
+  base: '/TheSite01',
   output: 'static',
 };
