@@ -1,5 +1,7 @@
-export default {
+import { defineConfig } from 'astro/config';
+
+export default defineConfig(({ command }) => ({
   site: 'https://evadesad.github.io',
-  base: '/TheSite01',
+  base: command === 'dev' ? '/' : '/TheSite01',
   output: 'static',
-};
+}));
